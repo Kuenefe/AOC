@@ -20,7 +20,7 @@ fn main() {
     first_list.sort();
     second_list.sort();
     let second_list_duplicate = second_list.clone();
-    
+
     let distance: u32 = {
         first_list
             .iter()
@@ -29,7 +29,6 @@ fn main() {
             .sum()
     };
     println!("this is the distance: {}", distance);
-     
 
     //part 2
 
@@ -62,4 +61,3 @@ fn main() {
 
     println!("result: {:?}", result);
 }
-
